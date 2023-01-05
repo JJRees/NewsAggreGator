@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">News Aggregator</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="source_options">Source Options</string>
+    <string name="settings">Settings</string>
+    <string-array name="tab_titles">
+        <item>General Settings</item>
+        <item>Source Settings</item>
+        <item>Topic Settings</item>
+    </string-array>
+    <string name="general_settings">General Settings</string>
+    <string name="topic_options">Topic Options</string>
+    <string name="feed">Latest Stories</string>
+    <string name="log_out">Log Out</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string-array name="topics">
+        <item>Local</item>
+        <item>England</item>
+        <item>Scotland</item>
+        <item>Wales</item>
+        <item>Ireland</item>
+        <item>International</item>
+        <item>EPL</item>
+        <item>Championship Football</item>
+        <item>Football</item>
+        <item>Cricket</item>
+        <item>Rugby</item>
+        <item>Tennis</item>
+        <item>Formula 1</item>
+        <item>Sports</item>
+        <item>Politics</item>
+        <item>Technology</item>
+        <item>TV</item>
+        <item>Movies</item>
+        <item>Culture</item>
+        <item>Business</item>
+    </string-array>
+
+    <string name="exclude_source">Would you like to exclude this source?</string>
+    <string name="alert_option">Would you like breaking news alerts?</string>
+    <string name="refresh">Refresh</string>
+</resources>

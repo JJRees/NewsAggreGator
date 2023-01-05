@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/feed_layout">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/feed_toolbar"
+        android:background="@color/darker_gator"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        ></com.google.android.material.appbar.MaterialToolbar>
+
+    <view class="androidx.recyclerview.widget.RecyclerView"
+        android:id="@+id/feed_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@id/feed_toolbar"
+        ></view>
+
+</RelativeLayout>
